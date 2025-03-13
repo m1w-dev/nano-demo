@@ -9,7 +9,7 @@ type UserInputProps = {
 }
 export const UserInput = ({ input, onSubmit, setInput }: UserInputProps) => {
 
-  const submitHandler = (e: SubmitEvent) => {
+  const submitHandler = (e: React.FormEvent) => {
     e.preventDefault()
     onSubmit()
   }
