@@ -44,3 +44,7 @@ dist-ssr
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/yarn
+tsconfig.node.tsbuildinfo
+tsconfig.tsbuildinfo
+vite.config.d.ts
+vite.config.js
